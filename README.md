@@ -121,6 +121,53 @@ chmod +x ~/download_videos.sh
 
 ***
 
+## 📱 YouTube Video Downloader Pro - Project Description
+
+**यह script Android पर Termux app का उपयोग करके YouTube और 1000+ अन्य video platforms से videos/audios download करने की क्षमता रखती है।**
+
+### 🎯 मुख्य उद्देश्य:
+Android mobile पर बिना किसी third-party app या ads के, सीधे YouTube app से share करके या batch mode में multiple videos को high-quality में download करना।
+
+### 🌐 Supported Platforms:
+
+**YouTube** के अलावा, यह script निम्न platforms से भी download कर सकती है:
+
+- **YouTube** (Videos, Shorts, Playlists, Channels)
+- **YouTube Music** (Audio/Music)
+- **Facebook** (Videos)
+- **Instagram** (Posts, Reels, Stories)
+- **Twitter/X** (Videos, GIFs)
+- **Vimeo** (Videos)
+- **Dailymotion** (Videos)
+- **TikTok** (Videos)
+- **Reddit** (Videos)
+- **Twitch** (Clips, VODs)
+- **SoundCloud** (Audio)
+- **Bandcamp** (Music)
+- और **1000+ websites** (yt-dlp support के अनुसार)
+
+### ⚡ Key Capabilities:
+
+1. **Direct Share Integration** - YouTube app से सीधे Termux में share करके instant download
+2. **Batch Processing** - links.txt में multiple URLs से एक साथ download
+3. **Quality Selection** - 144p से 4K (2160p) तक या केवल MP3 audio
+4. **Smart Organization** - `/sdcard/YouTube` में quality और channel wise folders
+5. **No Root Required** - केवल Termux और storage permission चाहिए
+6. **Auto-Install Dependencies** - yt-dlp, ffmpeg, python automatic install
+7. **Progress Tracking** - Real-time download stats और beautiful UI
+
+### 🎨 Special Features:
+- Professional colored banner interface
+- Download success/failure statistics
+- Metadata और thumbnail embedding
+- Concurrent fragment downloading (fast speed)
+- Auto-retry on failures
+- Empty/comment line handling
+
+**Technology Stack:** Bash scripting, yt-dlp, FFmpeg, Python, Termux environment
+
+***
+
 ## ❓ FAQ
 
 - **Q:** Share menu में Termux नहीं दिख रहा?
